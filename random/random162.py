@@ -1,9 +1,10 @@
+from ast import Num
 import random
 
-num = [0,1,2,3]
+num=[]
 
 for i in range(4) :
-    num[i] = random.randrange(9,21)
+    num.append(random.randrange(10,20))
 
 avg = sum(num)/4
 
